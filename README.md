@@ -1,0 +1,1 @@
+velog posting auto upload
