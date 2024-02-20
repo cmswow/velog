@@ -2,13 +2,12 @@ import feedparser
 import git
 import os
 
-
-
 # 벨로그 RSS 피드 URL
-rss_url = 'https://v2.velog.io/rss/@soryjn'
+# example : rss_url = 'https://api.velog.io/rss/@rimgosu'
+rss_url = 'https://api.velog.io/rss/@soryjn'
 
 # 깃허브 레포지토리 경로
-repo_path = 'C:\\Users\\alwk4\Desktop\\velog'
+repo_path = '.'
 
 # 'velog-posts' 폴더 경로
 posts_dir = os.path.join(repo_path, 'velog-posts')
